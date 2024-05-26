@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(18, 161, 18);
+    padding: 30px; 
+}
+.container{
+    background-color: white;
+    width: 95%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+h1{
+    color: green;
+    font-size: 30px;
+    margin-left: 5px;
+}
+#msg{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 5px;
+}
+.subContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.leftContainer{
+    width: 50%;
+}
+.rightContainer{
+    width: 50%;
+    margin-left: 20px;
+}
+.label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.input{
+    width: 80%;
+    padding: 8px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+fieldset {
+    border: 1px solid #000;
+    font-size: 25px;
+    width: 78%;
+}
+.radioLabel{
+    font-size: 18px;
+}
+.topicPara{
+    font-size: 20px;
+}
+.lebel1{
+    font-weight: bold;
+}
+#btn{
+    background-color: green;
+    width: 90%;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border-color: white;
+}

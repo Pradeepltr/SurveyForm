@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="icon" type="image/x-icon" href="12370590.png">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+   <section class="container">
+    <h1>Survey Form</h1>
+    <p id="msg">Feel Free To Answer 
+        The Questions Below Based On Your Own Experience And Opinion.
+        If You Are Not Convenient In Answering A Particular Questions
+        Please Skip it By Answering "No".Every Answer Would Be Very Appreciated.
+        Thank You For Your Time.
+     </p>
+     <form>
+     <section class="subContainer">
+        <section class="leftContainer">
+        <label for="name" class="label">Your Name</label><br>
+        <input type="text" name="name" class="input" placeholder="Enter your name">
+        <br><label for="email" class="label">Your Email Address</label><br>
+        <input type="email" name="email" class="input" placeholder="user@user.com">
+        <br><label for="phoneNumber" class="label">Your Phone Number</label><br>
+        <input type="text" maxlength="10" name="phoneNumber" class="input" placeholder="9999999999">
+        <br><label for="location" class="label">Where Do You Live? </label><br>
+        <select name="location" class="input">
+            <option value=""disabled selected><p class="option">Select</p></option>
+            <option value="Delhi">Delhi</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bihar">Bihar</option>
+        </select>
+         <fieldset>
+                <legend>Age</legend>
+                <section class="subContainer">
+                    <section class="leftContainer">
+                <div>
+                    <input type="radio" name="Age" value="15-20">
+                    <label for="15-20" class="radioLabel">15-20</label>
+              </div>
+              <div>
+                <input type="radio" name="Age" value="20-30">
+                <label for="20-30" class="radioLabel">20-30</label>
+          </div>
+          <div>
+            <input type="radio" name="Age" value="30-40">
+            <label for="30-40" class="radioLabel">30-40</label>
+      </div>
+    </section>
+    <section class="rightContainer">
+        <div>
+            <input type="radio" name="Age" value="41-50">
+            <label for="41-50" class="radioLabel">41-50</label>
+      </div>
+      <div>
+        <input type="radio" name="Age" value="Prefer not to say">
+        <label for="Prefer not to say" class="radioLabel">Prefer not to say</label>
+  </div>
+    </section>
+    </section>
+        </fieldset>
+        <p class="topicPara">How would you rate your proficiency in coding</p>
+        <section>
+        <div>
+            <input type="radio" name="level" value="Beginner">
+            <label for="Beginner" class="radioLabel">Beginner</label>
+      </div>
+      <div>
+        <input type="radio" name="level" value="Intermediate">
+        <label for="Intermediate" class="radioLabel">Intermediate</label>
+  </div>
+     <div>
+         <input type="radio" name="level" value="Advance">
+         <label for="Advance" class="radioLabel">Advance</label>
+     </div>
+    </section>
+    </section>
+        <section class="rightContainer">
+            <section>
+            <p class="topicPara">Have You Ever Appered in any coding contest?</p>
+            <div>
+                <input type="radio" name="contest" value="Yes">
+                <label for="Yes" class="radioLabel">Yes</label>
+            </div>
+            <div>
+                <input type="radio" name="contest" value="No">
+                <label for="No" class="radioLabel">No</label>
+            </div>
+        </section>
+        <section>
+            <label for="discuss"><p class="topicPara">Discuss what drives your passion for 
+                coding and outline your aspirations
+                in the field.</p>
+            </label>
+            <textarea name="discuss" rows="5" cols="60"></textarea>
+
+        </section>
+        <section>
+            <label for="challenge"><p class="topicPara"> What are some of the challenges you face
+                while coding?
+            </p>
+            </label>
+            <textarea name="challenge" rows="5" cols="60"></textarea>
+
+        </section>
+        <section>
+            <label for="ds"><p class="topicPara">Please list the Data Structures you 
+                have a strong understanding of. </p>
+            </label>
+            <textarea name="ds" rows="4" cols="60"></textarea>
+
+        </section>
+       <button type="submit" id="btn">Submit Form</button>
+        </section>
+     </section>
+    </form>
+   </section> 
+</body>
+</html>
